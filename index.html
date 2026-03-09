@@ -2,14 +2,15 @@
 <html>
 	<head>
 		<title>Favorite Destination</title>
+		<link rel="stylesheet" href="hello.css">
 	</head>
 	<body>
-		<h1>Visit Spain!</h1>
+		<h1 class="header-text text-center">Visit Spain!</h1>
 		<img
 			src="https://pic.uhomes.com/onlineblog/cdn/uploads/2024/09/20240906082144382.jpg"
 			alt="spain"
 			height="300px" />
-		<h4>Places to visit</h4>
+		<h4 class="text-center">Places to visit</h4>
 		<table style="border: 1px solid black">
 			<thead>
 				<th style="border: 1px solid black">Monday</th>
@@ -86,6 +87,7 @@
 			</li>
 		</ol>
 
+		<div class="text-center">
 		<h3>Book your vacation today!</h3>
 		<form action="" method="get" class="booking-form">
 			<div class="booking-form">
@@ -101,10 +103,10 @@
 				<label><input type="radio" name="radio" value="yes" /> Yes</label>
 				<label><input type="radio" name="radio" value="no" /> No</label>
 			</div>
-			<div class="booking-form">
-				<input type="submit" formmethod="post" value="Submit!" />
-				<p id="result"></p>
+			<div>
+				<input type="submit" formmethod="post" value="Submit!" id="button" />
 			</div>
 		</form>
+		</div>
 	</body>
 </html>
