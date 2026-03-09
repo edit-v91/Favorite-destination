@@ -1,39 +1,43 @@
 .header-text {
-    animation: bounce 0.5s infinite;
+	animation: bounce 0.5s infinite;
 }
 
 .text-center {
-    text-align: center;
+	text-align: center;
 }
 
 img {
-    margin: auto;
-    display: flex;
+	margin: auto;
+	display: flex;
+}
+
+.table-center {
+	margin: 0px auto;
 }
 
 .booking-form {
-    margin: 20px 0 20px 0;
+	margin: 20px 0 20px 0;
 }
 
 #button {
-    background-color:white;
-    border-radius: 10px;
-    font-size: 20px;
-    padding: 5px 8px 5px 8px;
+	background-color: white;
+	border-radius: 10px;
+	font-size: 20px;
+	padding: 5px 8px 5px 8px;
 }
 
 #button:hover {
-    background-color: aquamarine;
+	background-color: aquamarine;
 }
 
 @keyframes bounce {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-20px);
-  }
-  100% {
-    transform: translateY(0);
-  }
+	0% {
+		transform: translateY(0);
+	}
+	50% {
+		transform: translateY(-20px);
+	}
+	100% {
+		transform: translateY(0);
+	}
 }
